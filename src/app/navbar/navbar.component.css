@@ -1,0 +1,6 @@
+nav {
+     background:  linear-gradient(90deg, rgba(244,187,243,1) 0%, rgba(7,152,180,1) 100%);
+}
+nav span {
+    font-size: 30px;
+}

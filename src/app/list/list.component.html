@@ -1,0 +1,11 @@
+<div class="list">
+    <h2>List of items</h2>
+    <div *ngFor="let item of items,let i = index">
+        <div class="item green" [ngClass]="{'red' : item.number < 0}"    >
+            <div class="title">{{item.title}}</div>
+            <div class="number">{{item.number}}</div>
+            <div class="button" (click)="deleteItem(i)">X</div>
+        </div>
+    </div>
+
+</div>

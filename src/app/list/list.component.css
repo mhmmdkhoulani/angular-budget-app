@@ -1,0 +1,51 @@
+.list {
+    margin-top: 40px;
+    padding: 20px 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+.item .title, .number {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+ .button {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -23px;
+    left: 99%;
+    line-height: 29px;
+    text-align: center;
+    opacity: 0;
+    cursor: pointer;
+    transition: all ease-in-out 0.2;
+ }
+ .item:hover .button{
+    opacity: 1;
+ }
+
+.green {
+    background-color: #90ee9038;
+}
+.red{
+    background-color: #ee909086;
+}
+.hidden {
+    display: none;
+}
