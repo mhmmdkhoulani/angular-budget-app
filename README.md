@@ -3,7 +3,7 @@ this app is a simple application built with Angular to track the budget
 
 ## Demo 
 
-![](https://github.com/mhmmdkhoulani/Book-Store-android-project/blob/main/images/add.png)
+![](https://github.com/mhmmdkhoulani/Book-Store-android-project/blob/main/images/budget.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
